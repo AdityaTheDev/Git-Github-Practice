@@ -1,0 +1,66 @@
+// This contains the commands that I learned when learning GIT and GITHUB
+
+open a file and go to the respective dir in cmd
+
+initialize git using : git init
+
+Add required files or add the required changes
+
+T know the status : git status
+
+if the file is not added then add : git add .
+
+Commit the file : git commit -m " "
+
+
+Connecting the github account:
+
+Copy the github repo url, then
+
+use : git remote add origin url
+
+Commiting files to github Repo:
+
+git push origin master
+
+
+// Now lets learn how to contribute to Opensource projects:
+
+First fork the repoistery
+
+then clone the project that you want to contribute : git clone url
+
+make changes in your local clone project
+
+move the cmd dir to the folder where you made changes
+
+check git status : git status
+
+if the git didnt recognize the change then add the file : git add .
+
+Create a new branch : git branch newbranch
+
+move the branch from master to new branch : git checkout newbranch
+
+then add the changes : git add .
+
+commit the changes : git commit -m " "
+
+push your branch to the owners project : git push origin branchname
+
+Succesfully Pushed. Now go online and create a Pull request.
+
+If your contribution(code) is error free then the owner of the project will MERGE it to the master branch of the project.
+
+
+// FUN FACT
+   
+This file was written,committed using cmd and git commands by following the above mentioned steps.
+
+
+
+
+Thank You!
+ 
+
+      - By Aditya 
